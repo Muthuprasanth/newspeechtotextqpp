@@ -6,12 +6,19 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "audiobuffer-to-wav": "^1.0.0",
+    "bingspeech-api-client": "^2.5.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.16.0",
+    "fs": "0.0.1-security",
     "http-errors": "~1.6.2",
     "morgan": "~1.9.0",
     "nodemon": "^1.18.4",
-    "pug": "2.0.0-beta11"
+    "pug": "2.0.0-beta11",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "url": "^0.11.0",
+    "web-audio-api": "^0.2.2"
   }
 }
