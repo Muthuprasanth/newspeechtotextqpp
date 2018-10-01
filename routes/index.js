@@ -54,7 +54,7 @@ router.get('/speechtotext', function(req, res, next) {
         let audioStream = fs.createReadStream(filename); // create audio stream from any source
         // Bing Speech Key (https://www.microsoft.com/cognitive-services/en-us/subscriptions)
         //let subscriptionKey = 'c9a70ce52aae4bb592fcb80099cd2b8b'; 
-        let subscriptionKey = 'ece066ccca734986b36a48aa583ee1ab';        
+        let subscriptionKey = '6e007f51388a4f8db252ccaaf098569b';        
         let client = new BingSpeechClient(subscriptionKey);
         //  client.recognizeStream(audioStream).then(response => console.log(response.results[0].name));
         client.recognizeStream(audioStream).then(function(response)
